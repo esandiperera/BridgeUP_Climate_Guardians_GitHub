@@ -1,12 +1,12 @@
 ## Setting up Github!
 
-- [] 1. Log into GitHub on your browser, and navigate to [https://github.com/ankithakannad/BridgeUP_Climate_Guardians_GitHub](https://github.com/ankithakannad/BridgeUP_Climate_Guardians_GitHub). This is my **remote repository**.
+- [ ] 1. Log into GitHub on your browser, and navigate to [https://github.com/ankithakannad/BridgeUP_Climate_Guardians_GitHub](https://github.com/ankithakannad/BridgeUP_Climate_Guardians_GitHub). This is my **remote repository**.
 
-- [] 2. Navigate to the right side of the window and click on &quot;Fork&quot;. This will save a new copy of the repository to your own GitHub account.
+- [ ] 2. Navigate to the right side of the window and click on &quot;Fork&quot;. This will save a new copy of the repository to your own GitHub account.
 
 ![fork a repo](https://github.com/amnh/BridgeUP-STEM-Oceans-Six/blob/master/photos/fork.png)
 
-- [] 3. Open up Terminal. Navigate to your Desktop. 
+- [ ] 3. Open up Terminal. Navigate to your Desktop. 
 
 Useful terminal commands:
    * **cd path/folder_name** navigates to a folder
@@ -14,16 +14,16 @@ Useful terminal commands:
    * **cd ..** moves you up one folder
    * **cd** (without anything after it) takes you to your home directory 
  
- - [] 4. Once you're in the right location, fork your repository. This downloads a copy of my repository onto your GitHub. 
+ - [ ] 4. Once you're in the right location, fork your repository. This downloads a copy of my repository onto your GitHub. 
 
   You can tell you're in your forked repository because the name of the repository will also have a description of where it was forked from. 
 
-  ![forked from](https://github.com/ankithakannad/BridgeUP_Climate_Guardians_GitHub/Guides/images/GitHub_guide_1.png)
+  ![forked from](https://github.com/ankithakannad/BridgeUP_Climate_Guardians_GitHub/blob/main/Guides/images/GitHub_guide_1.png)
 
  On Terminal, download your forked repository using **git clone \<url\>**, where **\<url\>** is the URL of your forked repository.
     * To find this URL, go to your GitHub account, open the repositories tab, find the forked repository, and click on the green button on the right side that says, \"Clone or download.\" Copy the URL it gives you.
     
-  ![clone url](https://github.com/ankithakannad/BridgeUP_Climate_Guardians_GitHub/Guides/images/GitHub_guide_2.png)
+  ![clone url](https://github.com/ankithakannad/BridgeUP_Climate_Guardians_GitHub/blob/main/Guides/images/GitHub_guide_1.png)
   
   - [ ] 5. Now, we are going connect your local directory to GitHub so your computer knows where to save any changes you've made online. This is a quick diagram of what these different connections look like. Ignore the **git** commands for now.
   
