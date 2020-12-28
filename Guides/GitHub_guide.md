@@ -2,6 +2,8 @@
 
 - [ ] 1. Log into GitHub on your browser, and navigate to [https://github.com/ankithakannad/BridgeUP_Climate_Guardians_GitHub](https://github.com/ankithakannad/BridgeUP_Climate_Guardians_GitHub). This is my **remote repository**.
 
+### Fork repository
+
 - [ ] 2. Navigate to the right side of the window and click on &quot;Fork&quot;. This will save a new copy of the repository to your own GitHub account.
 
 ![fork a repo](https://github.com/amnh/BridgeUP-STEM-Oceans-Six/blob/master/photos/fork.png)
@@ -10,7 +12,7 @@ You can tell you're in your forked repository because the name of the repository
 
 ![forked from](https://github.com/ankithakannad/BridgeUP_Climate_Guardians_GitHub/blob/main/Guides/images/GitHub_guide_1.png)
 
-- [ ] 3. Open up Terminal. Navigate to your Desktop. 
+- [ ] 3. Open up Terminal and navigate to your Desktop. 
 
 Useful terminal commands:
    * **cd path/folder_name** navigates to a folder
