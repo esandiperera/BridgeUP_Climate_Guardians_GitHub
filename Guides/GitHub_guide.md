@@ -6,6 +6,10 @@
 
 ![fork a repo](https://github.com/amnh/BridgeUP-STEM-Oceans-Six/blob/master/photos/fork.png)
 
+You can tell you're in your forked repository because the name of the repository will also have a description of where it was forked from. 
+
+![forked from](https://github.com/ankithakannad/BridgeUP_Climate_Guardians_GitHub/blob/main/Guides/images/GitHub_guide_1.png)
+
 - [ ] 3. Open up Terminal. Navigate to your Desktop. 
 
 Useful terminal commands:
@@ -14,16 +18,10 @@ Useful terminal commands:
    * **cd ..** moves you up one folder
    * **cd** (without anything after it) takes you to your home directory 
  
- - [ ] 4. Once you're in the right location, fork your repository. This downloads a copy of my repository onto your GitHub. 
-
-  You can tell you're in your forked repository because the name of the repository will also have a description of where it was forked from. 
-
-  ![forked from](https://github.com/ankithakannad/BridgeUP_Climate_Guardians_GitHub/blob/main/Guides/images/GitHub_guide_1.png)
-
- On Terminal, download your forked repository using **git clone \<url\>**, where **\<url\>** is the URL of your forked repository.
+ - [ ] 4. Once you're in the right location, download your forked repository using **git clone \<url\>**, where **\<url\>** is the URL of your forked repository.
     * To find this URL, go to your GitHub account, open the repositories tab, find the forked repository, and click on the green button on the right side that says, \"Clone or download.\" Copy the URL it gives you.
     
-  ![clone url](https://github.com/ankithakannad/BridgeUP_Climate_Guardians_GitHub/blob/main/Guides/images/GitHub_guide_1.png)
+  ![clone url](https://github.com/ankithakannad/BridgeUP_Climate_Guardians_GitHub/blob/main/Guides/images/GitHub_guide_2.png)
   
   - [ ] 5. Now, we are going connect your local directory to GitHub so your computer knows where to save any changes you've made online. This is a quick diagram of what these different connections look like. Ignore the **git** commands for now.
   
