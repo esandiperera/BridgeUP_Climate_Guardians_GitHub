@@ -36,7 +36,7 @@ Useful terminal commands:
     * Now, type **git remote -v** again. You should see two remotes: One called **origin** that points to your own repository, and one called **ankitha_repo** that points to mine.
     * If you make a mistake, type in **git remote set_url upstream \<url\>** to reset the URL.
 
-- [ ] 8. Add me as a collaborator to your repository — that way, I'll be able to see your work and integrate it into the main repository. Go to "Settings" in your repository, visit "Collaborators" and add my username (akannad.amnh@gmail.com) into the "Add collaborators" box. 
+- [ ] 8. Add me as a collaborator to your repository — that way, I'll be able to see your work and integrate it into the main repository. Go to "Settings" in your repository, visit "Collaborators" and add my username (ankithakannad) into the "Add collaborators" box. 
 
 - [ ] 9. Let's edit and add our first file to the repository. I'm going to add a .txt file for you to fill out in the "about_me" folder on GitHub. First, you'll have to pull the changes from my updated repository (**ankitha_repo**) onto your computer. 
     * In Terminal, type in **git pull ankitha_repo main**. **main** is the main branch of your repository. On GitHub, you can make new branches or copies of your repository to edit files without worrying about messing up your original repository. 
