@@ -48,12 +48,12 @@ Useful terminal commands:
 - [ ] 11. When you're ready, 
     * Create a new branch called upload with **git branch upload**
     * Switch to this branch using **git checkout upload**
-    * Type **git add .** to let GitHub know that you've made changes to your repository. Here, **.** = all the changes you've made. If only want to add a particular file, you would use the file name instead of **.**
+    * Type **git add .** to let GitHub know that you've made changes to your repository. Here, **.** means all the changes you've made. If only want to add a particular file, you would use the file name instead.
     * Type **git commit -m** \"\<Your message here\>\". Change \[Your message here\] to explain why you&#39;re making the change – i.e. &quot;Adding in my name&quot; etc. This lets GitHub know that your changes are ready to be uploaded.
     * Switch back to your main branch using **git checkout main**
     * Merge the changes you made in the upload branch to your main branch using **git merge upload**. Creating a new branch is a safety check to make sure there are no issues that arise when editing your files.
     * Delete your branch using **git branch -d upload**
-    * To make sure the changes have been made, type in **git status**
+    * To make sure the changes have been made, type in **git status**. If your commits have been uploaded, it should say &quot;Your branch is up to date with 'origin/main'&quot; (the **main** branch of your repository).
     
 - [ ] 12. Next, you&#39;ll upload this change to your remote repository. Type **git push origin main**. This tells git to send the changes you made on the **main** branch of your repository to your forked repository on GitHub.
 
