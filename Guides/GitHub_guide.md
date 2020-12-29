@@ -24,27 +24,29 @@ Useful terminal commands:
     * To find this URL, go to your GitHub account, open the repositories tab, find the forked repository, and click on the green button on the right side that says, \"Clone or download.\" Copy the URL it gives you.
     
   ![clone url](https://github.com/ankithakannad/BridgeUP_Climate_Guardians_GitHub/blob/main/Guides/images/GitHub_guide_2.png)
+ 
+ ### Connect to Ankitha's repository
+ 
+  - [ ] 5. Now, you've connected your remote (forked) repository with your local repository. GitHub gives this remote repository a nickname: **origin**. 
   
-  - [ ] 5. Now, we are going connect your local directory to GitHub so your computer knows where to save any changes you've made online. This is a quick diagram of what these different connections look like. Ignore the **git** commands for now.
+  - [ ] 6. Check that your forked repository is called origin by typing in **git remote -v** (**-v** or **-verbose** is simply asking **git** to list out the URL in addition to the names of the remote connections). 
   
-  <!-- ![git connections](https://github.com/AKannad/BRIDGEUP_ClimateCoders/blob/master/guides/GitHub_dailySteps.png) -->
-  
-  - [ ] 6. Check that your origin is your forked repository by typing in **git remote -v** (**-v** or **-verbose** is simply asking **git** to list out the URL in addition to the names of the remote connections. 
-  
-  - [ ] 7. Now, let's connect to my repository so you can add in any new changes I've made to your local repository. 
-    * Type **git remote add ankitha_repo** **https://github.com/ankithakannad/BridgeUP_Climate_Guardians_GitHub** in Terminal.
+  - [ ] 7. Now, let's connect to my repository so you can add in any new changes I've made to your local repository. We're going to call my repository **ankitha_repo**.
+    * Type **git remote add ankitha_repo** **https://github.com/ankithakannad/BridgeUP_Climate_Guardians_GitHub** on Terminal.
     * Now, type **git remote -v** again. You should see two remotes: One called **origin** that points to your own repository, and one called **ankitha_repo** that points to mine.
     * If you make a mistake, type in **git remote set_url upstream \<url\>** to reset the URL.
 
-- [ ] 8. Add me as a collaborator to your repository — that way, I'll be able to see your work and integrate it into the main repository. Go to "Settings" in your repository, visit "Collaborators" and add my username (ankithakannad) into the "Add collaborators" box. 
+- [ ] 8. Add me as a collaborator to your repository — that way, I'll be able to see your work and integrate it into the main repository. Go to "Settings" in your repository, visit "Collaborators" and add my username (akannad.amnh@gmail.com) into the "Add collaborators" box. 
 
-- [ ] 9. Let's edit and add our first file to the repository. I'm going to add a .txt file for you to fill out in the "about_me" folder on GitHub. First, you'll have to pull the changes from my updated repository onto your computer. 
-    * In Terminal, type in **git pull ankitha_repo main**. **master** is the main branch of your repository. On GitHub, you can make new branches to edit files without worrying about messing up your original file. 
+- [ ] 9. Let's edit and add our first file to the repository. I'm going to add a .txt file for you to fill out in the "about_me" folder on GitHub. First, you'll have to pull the changes from my updated repository (**ankitha_repo**) onto your computer. 
+    * In Terminal, type in **git pull ankitha_repo main**. **main** is the main branch of your repository. On GitHub, you can make new branches or copies of your repository to edit files without worrying about messing up your original repository. 
 
-- [ ] 10. Navigate to the "about_me" folder on your computer and edit the "about_me.txt" file.
+- [ ] 10. Navigate to the "about_me" folder on your computer and open the "about_me.txt" file on Sublime. Answer the prompts provided. 
 
 - [ ] 11. When you're ready, 
-    * Type **git add about_me.txt**. This lets git know you're ready to make a change. If you make a lot of changes, you could also do **git add .** so all the changes are added.
+    * Create a new branch called **git branch upload**
+    * Switch to this branch using **git checkout upload**
+    * Type **git add .**. This lets GitHub know that you've made changes to your repository. If you only want to add a specific file, you would do **git add file_name** instead.
     * Type **git commit -m** \"\<Your message here\>\". Change \[Your message here\] to explain why you&#39;re making the change – i.e. &quot;Adding in my name&quot; etc.
     * To make sure the changes have been made, type in **git status**.
     
