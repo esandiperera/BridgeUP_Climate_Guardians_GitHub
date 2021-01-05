@@ -43,6 +43,19 @@ Useful terminal commands:
 - [ ] 9. Let's edit and add our first file to the repository. I'm going to add a .txt file for you to fill out in the "about_me" folder on GitHub. First, you'll have to pull the changes from my updated repository (**ankitha_repo**) onto your computer. 
     * In Terminal, type in **git pull ankitha_repo main**. **main** is the main branch of your repository. 
 
+#### Without branching
+
+- [ ] 10. Navigate to the "Labs" folder on your computer and open the "21_01_07_about_me.txt" file on Sublime. Answer the prompts provided.
+
+- [ ] 11. When you're ready to upload your changes,
+    * Type **git add .** to let GitHub know that you've made changes to your repository. Here, **.** means all the changes you've made. If only want to add a particular file, you would use the file name instead.
+    * Type **git commit -m** \"\<Your message here\>\". Change \[Your message here\] to explain why you&#39;re making the change – i.e. &quot;Adding in my name&quot; etc. This lets GitHub know that your changes are ready to be uploaded.
+	* To make sure the changes have been made, type in **git status**. If your commits have been uploaded, it should say &quot;Your branch is up to date with 'origin/main' &quot; (the **main** branch of your repository).
+
+- [ ] 12. Next, you&#39;ll upload this change to your remote repository. Type **git push origin main**. This tells git to send the changes you made on the **main** branch of your repository to your forked repository on GitHub.
+
+#### With branching
+
 - [ ] 10. On GitHub, you can make new branches or copies of your repository to edit files without worrying about messing up your original repository. 
     * Create a new branch called edit_branch with **git branch edit_branch**
     * Switch to this branch using **git checkout edit_branch**
